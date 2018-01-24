@@ -9,9 +9,17 @@ public class TestCharacter {
     public static void main(String[] args){
         char a='A';
         System.out.println("原字符："+a);
-        char b=(char)(a+1);
-        System.out.println("加密后："+b);
-        char c=(char)(b-1);
+        char b=(char)(a^'D');
+        System.out.println("加密后："+(int)b);
+        char c=(char)(b^'D');
         System.out.println("解密后："+c);
     }
+//    public static void main(String[] args){
+//        char a='A';
+//        System.out.println("原字符："+a);
+//        char b=(char)(a+1);
+//        System.out.println("加密后："+b);
+//        char c=(char)(b-1);
+//        System.out.println("解密后："+c);
+//    }
 }
