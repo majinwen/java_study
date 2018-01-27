@@ -1,11 +1,8 @@
 # 第五天
 ---
 ## 类访问控制符（安全性由高到低）
-* private：同类访问
-* 默认：同包访问
-* protected：同包访问
-* public：跨包访问
+### public可以跨包访问，protected和默认不写可以同包访问,private私有 
 ## 继承
 ### 一个子类只能有一个直接的父类
 ### 默认不写访问控制符，只能在同一个包中被继承
-### protected与publick可以挎包访问
+### protected与public可以跨包继承，默认不写可以同包继承，private不能继承
