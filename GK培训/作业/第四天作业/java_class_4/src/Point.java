@@ -27,7 +27,7 @@ public class Point {
     }
     public void movePiont(double dx,double dy){
         this.x+=dx;
-        this.y=dy;
+        this.y+=dy;
     }
     public double getDistance(Point point){
         return Math.sqrt(Math.pow(point.x-this.x,2)+Math.pow(point.y-this.y,2));
