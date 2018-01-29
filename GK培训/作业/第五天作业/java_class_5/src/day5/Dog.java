@@ -9,7 +9,7 @@ public class Dog extends Animal {
         System.out.println("Dog被构造。。。");
     }
 
-    protected void bark() {
+    public void bark() {
         System.out.println("Dog在吼叫。。。");
     }
 

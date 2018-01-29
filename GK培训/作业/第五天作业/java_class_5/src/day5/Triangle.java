@@ -7,7 +7,7 @@ package day5;
 public class Triangle {
     public static void main(String[] args) {
         Triangle triangle = new Triangle(1, 1.5, 1);
-        System.out.println(triangle.toString());
+        System.out.println(triangle);
     }
 
     private double side1;
