@@ -17,7 +17,7 @@ public class Triangle extends Shape {
     }
 
     public void draw(String color) {
-
+        System.out.println(color + "Triangle");
     }
 
     public void draw() {

@@ -8,6 +8,7 @@ public class TestShape {
     public static void main(String[] args){
         Shape[] shapes = {new Triangle(3,4,5),new Circle(7),new Rectangle(8,9)};
         for(Shape i:shapes){
+            i.draw("green ");
             i.draw();
         }
     }

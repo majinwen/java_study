@@ -12,7 +12,7 @@ public class Circle extends Shape {
     }
 
     public void draw(String color) {
-
+        System.out.println(color + "Circle");
     }
 
     public void draw() {

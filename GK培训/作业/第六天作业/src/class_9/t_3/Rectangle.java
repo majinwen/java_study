@@ -14,7 +14,7 @@ public class Rectangle extends Shape {
     }
 
     public void draw(String color) {
-
+        System.out.println(color + "Rectangle");
     }
 
     public void draw() {
@@ -22,10 +22,10 @@ public class Rectangle extends Shape {
     }
 
     public double getPerimeter() {
-        return 2*(side1+side2);
+        return 2 * (side1 + side2);
     }
 
     public double getArea() {
-        return side1*side2;
+        return side1 * side2;
     }
 }
